@@ -18,11 +18,14 @@
   margin: auto;
 }
 .card {
-  width: 330px;
-  height: 430px;
+  width: 300px;
+  height: 500px;
   border-radius: 16px 16px 0px 0px;
-  margin: 20px;
+  margin: 10px;
   text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #f3f3f3;
+  position: relative;
 }
 .foto-redonda {
   border-radius: 50%;
@@ -45,6 +48,14 @@ button {
   padding: 10px;
   color: white;
   border: none;
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  bottom: 80px;
+  border-radius: 2px;
+  font-size: 16px;
+  width: 128px;
+  height: 40px;
 }
 .corazon {
   position: relative;
